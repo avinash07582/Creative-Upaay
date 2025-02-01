@@ -45,6 +45,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+     <hr/>
       
     </div>
   )

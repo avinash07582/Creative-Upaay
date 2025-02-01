@@ -7,6 +7,7 @@ const Sidenav = () => {
   return ( 
     <>
   <div className=" main h-full w-[15%]   flex flex-col ">
+  <div className="w-64 bg-white border-r border-gray-200"> </div>
  
     <div className= " home mt-20 ml-5 px-3    flex ">
          <HomeIcon className="mt-3"/>
@@ -91,7 +92,8 @@ const Sidenav = () => {
     
   </div>
   
-   <div className=" border  h-screen border-zinc-500 "></div>
+   {/* <div className=" border  h-screen border-zinc-500 "></div> */}
+   
    
   </>
   
