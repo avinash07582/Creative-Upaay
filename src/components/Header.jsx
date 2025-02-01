@@ -15,7 +15,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Center Section - Search Bar */}
+     
       <div className="relative w-1/3">
         <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
         <input
@@ -25,7 +25,7 @@ const Header = () => {
         />
       </div>
 
-      {/* Right Section - Icons & Profile */}
+      
       <div className="flex items-center gap-10">
         <Calendar className="text-gray-600 cursor-pointer" />
         <HelpCircle className="text-gray-600 cursor-pointer" />
@@ -35,7 +35,7 @@ const Header = () => {
         </div>
         <div className="flex items-center gap-12 mr-12  cursor-pointer">
           <img
-            src="public/images/pic.jpg"
+            src="/images/pic.jpg"
             alt="User"
             className="w-8 h-8 ml-15 rounded-full"
           />
